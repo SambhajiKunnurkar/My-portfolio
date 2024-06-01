@@ -19,7 +19,7 @@
     padding-right: 10%; */
     padding: 0px 10%;
     justify-content: space-between;
-     
+    position: fixed;
     
 }
 
@@ -89,7 +89,7 @@ header ul li .active{
 .banner 
 {
     width: 100%;
-    height: 700px;
+    height: 750px;
     background-color: #d6d3d3;
     padding-left: 10%;
     padding-right: 10%;
@@ -318,16 +318,16 @@ header ul li .active{
 }
 
 
-/* clients css  */
+/* social css  */
 
-.clients 
+.social 
 {
     width:100%;
     padding: 30px 10%;
     /* background-color: red; */
 }
 
-.client-section-child
+.social-section-child
 {
     /* background-color: white; */
     column-gap: 5%;
@@ -335,21 +335,38 @@ header ul li .active{
     align-items: center;
     row-gap: 30px;
 }
+.social-section-child a{
+    float: right;
+}
 
-.client-img
+.social-img
 {
-    width: 8%;
+    width: 100px;
     filter: grayscale(100%);
     transition: .3s;
     cursor: pointer;
+    float: left;
     
 }
 
-.client-img:hover 
+.social-img:hover 
 {
     filter: grayscale(0);
     transform: scale(1.2);
 }
+.social ul{
+
+    display: flex;
+}
+.social ul li{
+    
+    list-style: none;
+}
+.social ul li a{
+    
+    margin: 0 75px;
+}
+ 
 
 /* footer css  */
 
