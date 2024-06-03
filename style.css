@@ -82,6 +82,13 @@ header ul li .active{
    height: 180px;
    background-color: rgba(0,0,0,0.1);
 }
+.section {
+    /* padding: 70px 0; */
+    /* height: 100vh; */
+}
+.content{
+    padding-top: 70px;
+}
 
 
 /* banner css  */
@@ -89,7 +96,7 @@ header ul li .active{
 .banner 
 {
     width: 100%;
-    height: 750px;
+    height: 670px;
     background-color: #d6d3d3;
     padding-left: 10%;
     padding-right: 10%;
@@ -235,39 +242,24 @@ header ul li .active{
 
 /* achievements */
 
-.achievements
+.projects
 {
     padding:30px 10%;
     background-color: #ededed;
     font-family: 'Montserrat', sans-serif;
 }
 
-.achievement
-{
-    width: 18%;
-    padding: 50px;
-    /* background-color: yellow; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 10px;
+
+.projects a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #1e1919;
+    font-color:white;
+
 }
 
-.achievements-child 
-{
-    column-gap: 2.5%;
-}
-
-.number
-{
-    font-size: 45px;
-    font-weight: bold;
-}
-
-.tag
-{
-    font-size: 18px;
-}
 
 
 /* quote css  */
@@ -299,24 +291,9 @@ header ul li .active{
     flex-direction: column;
     align-items: center;
 }
-
-.inp-email
-{
-    width: 70%;
-    height: 60px;
-    border: 2px solid white;
-    font-size: 18px;
-    text-indent: 20px;
-    border-radius: 10px;
-    background-color: transparent;
-    outline: none;
+.h1{
+    color: #f3f0f0;
 }
-
-::placeholder
-{
-    color: white;
-}
-
 
 /* social css  */
 
@@ -324,7 +301,9 @@ header ul li .active{
 {
     width:100%;
     padding: 30px 10%;
-    /* background-color: red; */
+    /* background-color: #a8a0a0; */
+    
+
 }
 
 .social-section-child
@@ -333,7 +312,7 @@ header ul li .active{
     column-gap: 5%;
     flex-wrap: wrap;
     align-items: center;
-    row-gap: 30px;
+    /* row-gap: 30px; */
 }
 .social-section-child a{
     float: right;
@@ -361,10 +340,11 @@ header ul li .active{
 .social ul li{
     
     list-style: none;
+    margin-left: 25%;
 }
 .social ul li a{
     
-    margin: 0 75px;
+    /* margin: 0 75px; */
 }
  
 
