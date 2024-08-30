@@ -213,6 +213,30 @@ header ul li a.active{
     border-radius: 10px;
     
 }
+.service1
+{
+    width: 15%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    row-gap: 15px;
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+    
+}
+.section-child1
+{
+    width: 100%;
+    padding: 10px 0px ;
+    /* background-color: white; */
+    margin-top: 10px;
+    display: flex;
+    column-gap: 4%;
+    
+}
 
 .icon 
 {
@@ -298,8 +322,9 @@ header ul li a.active{
 .social 
 {
     width:100%;
-    padding: 30px 10%;
+    padding: 30px 5%;
     /* background-color: #a8a0a0; */
+    margin-left: 75px;
     
 
 }
@@ -377,7 +402,24 @@ header ul li a.active{
     flex-direction: column;
     row-gap: 7px;
 }
+footer ul{
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+footer ul li{
+    position: relative;
+    list-style: none;
+}
+footer ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color:white;
 
+}
 .map 
 {
     width: 40%;
