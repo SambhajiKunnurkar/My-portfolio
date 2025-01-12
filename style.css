@@ -328,18 +328,24 @@ header ul li a.active{
     
 
 }
+.social-media-links {
+    display: flex;
+    justify-content: space-around; /* Equal spacing between icons */
+    padding: 20px; /* Optional: Add padding around the container */
+    gap: 20px;
+  }
+  
+  
+  @media (max-width: 468px) {
+    .social-media-links {
+      flex-direction: row;
+      justify-content: space-between; /* Adjust for smaller screens */
+      gap: 10px;
+    }
+    
+  }
 
-.social-section-child
-{
-    /* background-color: white; */
-    column-gap: 5%;
-    flex-wrap: wrap;
-    align-items: center;
-    /* row-gap: 30px; */
-}
-.social-section-child a{
-    float: right;
-}
+
 
 .social-img
 {
@@ -356,19 +362,8 @@ header ul li a.active{
     filter: grayscale(0);
     transform: scale(1.2);
 }
-.social ul{
 
-    display: flex;
-}
-.social ul li{
-    
-    list-style: none;
-    margin-left: 25%;
-}
-.social ul li a{
-    
-    /* margin: 0 75px; */
-}
+
  
 
 /* footer css  */
