@@ -33,7 +33,7 @@ const Navbar = () => {
 
   // Navigation Links Data
   const navLinks = [
-    { name: 'Home', icon: <FaHome />, path: '<Home/>' },
+    { name: 'Home', icon: <FaHome />, path: '#' },
     { name: 'About', icon: <FaUser />, path: '#about' },
     { name: 'Projects', icon: <FaCode />, path: '#projects', hasDropdown: true },
     { name: 'Experience', icon: <FaBriefcase />, path: '#experience' },
