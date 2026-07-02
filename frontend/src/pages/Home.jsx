@@ -32,11 +32,11 @@ const HeroSection = () => {
         
         {/* Social Icons */}
         <div className="flex justify-center space-x-6 mb-10">
-          <SocialLink href="https://github.com" icon={<FaGithub size={28} />} />
-          <SocialLink href="https://linkedin.com" icon={<FaLinkedin size={28} />} />
+          <SocialLink href="https://github.com//SambhajiKunnurkar" icon={<FaGithub size={28} />} />
+          <SocialLink href="https://www.linkedin.com/in/sambhaji-kunnurkar-185359267" icon={<FaLinkedin size={28} />} />
           <SocialLink href="https://youtube.com" icon={<FaYoutube size={28} />} />
-          <SocialLink href="https://instagram.com" icon={<FaInstagram size={28} />} />
-          <SocialLink href="mailto:your@email.com" icon={<FaEnvelope size={28} />} />
+          <SocialLink href="https://www.instagram.com/code_w_sam?igsh=bW01ajJlcGhhbnQ5" icon={<FaInstagram size={28} />} />
+          <SocialLink href="sambhajikunnurkar2002@email.com" icon={<FaEnvelope size={28} />} />
         </div>
         
         {/* Buttons */}
